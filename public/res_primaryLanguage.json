@@ -55,7 +55,7 @@
         "images": [
           "images/portfolio/beasts/beast.jpeg"
         ],
-        "url": "https://github.com",
+        "url": "https://horned-beast-react-project.netlify.app",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -70,37 +70,35 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Full Stack Developer",
+        "years": "8.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "React",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML",
+          "CSS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Claim Academy",
+        "title": "Full Stack Developer",
+        "years": "04.2021 - 07.2021",
         "mainTech": [
-          "Angular 7/8"
+          "C# 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "C#",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Microsoft SQL",
+          "ASP.Net",
+          "MVC",
+          "Visual Studio",
+          "Bootstrap"
         ]
       }
     ]
