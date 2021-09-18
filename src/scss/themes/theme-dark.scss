@@ -2,6 +2,9 @@ body[data-theme="dark"] {
 
    @import '/src/scss/dark-slider.scss';
 
+   .nav-link{
+      color: #50638F
+   }
    .slider-tab {
       background-color: #8C8C8C;
    }
@@ -10,8 +13,9 @@ body[data-theme="dark"] {
       color: white;
    }
 
+
    .header-icon {
-      color: #3C342C;
+      color: white;
       opacity: 0.8;
    }
 
@@ -33,28 +37,35 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-image: url("https://images.unsplash.com/photo-1549861833-c5932fd19229?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+      background-color: #07163A;
       h1 {
          color: white;
       }
    }
+   footer {
+      background-color: #07163A;
+   }
+   #skills {
+      background-color: #2E4271; 
+   }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: #162955;
       h1 span {
          color: white;
       }
       .polaroid span {
-         background:  #6d6d6d;
+         background:  #2E4271;
       }
       .card {
-         background: #6d6d6d;
+         background: #2E4271;
          color: white;
       }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #162955;
       .section-title {
          color: white !important;
       }
@@ -68,26 +79,28 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: #162955;
       .section-title {
          color: white !important;
       }
 
       .experience-badge {
-         background: #919191 !important;
+         background: #50638F !important;
          color: white;
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: #50638F !important;
       }
 
       .vertical-timeline-element-date {
          color: white;
+         
       }
+      
 
       .vertical-timeline-element-icon {
-         background: #919191 !important;
+         background: #50638F !important;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {

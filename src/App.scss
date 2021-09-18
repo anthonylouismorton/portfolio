@@ -17,6 +17,8 @@ html {
 
 .title-container {
 	height: 50px;
+  color: white;
+  font-size: 2rem;
 }
 
 .title-styles {
@@ -27,9 +29,11 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: black;
 }
 
 header {
+	background-image: url(https://images.unsplash.com/photo-1583207884889-d79abf0d0aa3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
 	position: relative;
 	height: 520px;
 	min-height: 450px;
@@ -38,7 +42,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -86,7 +90,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #949494;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -95,7 +99,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: white;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -120,7 +124,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #D7D7D7;
 	overflow: hidden;
 }
 
@@ -231,7 +235,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #D7D7D7;
 }
 
 .experience-icon {
@@ -245,7 +249,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #949494 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,8 +260,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: #949494 !important;
+	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -265,6 +269,19 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	color: white;
+	
+}
+.vertical-timeline-element-title{
+	color: black;
+	
+}
+.vertical-timeline-element-subtitle{
+	color: black;
+	
+}
+.nav-link{
+	color: black;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -353,7 +370,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #D7D7D7;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +406,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #767777;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +431,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #767777;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
