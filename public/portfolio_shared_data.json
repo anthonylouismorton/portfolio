@@ -1,20 +1,20 @@
 {
     "basic_info": {
       "name": "Anthony Morton",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Full Stack Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/anthonylouismorton",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/anthony-louis-morton/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "headshot.jpg"
     },
     "skills": {
       "icons": [

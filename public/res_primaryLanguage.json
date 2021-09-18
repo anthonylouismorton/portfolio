@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Anthony Morton. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "My name my name is Anthony Morton. I am a full-stack web developer. I have a background in industrial hygiene, and I also have a bachelor’s degree in occupational health and safety from Columbia Southern University. Before my time as an industrial hygienist, I served 9 years in the United States Marine Corps where I was a motor transport operator and an imagery analyst. My skills include leadership, teamwork, and adaptability. During my time in the Marines, I enjoyed being a leader and I found being a leader was most rewarding when I was able to help my subordinates advance their careers and get promoted. I also enjoyed using teamwork to build comradery and that comradery was one of my favorite parts of being a Marine. Currently, I am hoping to find a role in automation. I am particularly interested in automation that helps with worker safety. Engineering controls are one of the most efficient ways to keep a worker safe and one of the more effective engineering controls is the use of automation ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,22 +11,21 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Sign Company",
+        "startDate": "2021",
+        "description": "Website for a local sign company. The website has the ability to submit a request for a quote or service. There is a form to schedule a crane lift and a calendar to display what blocks of times have already been taken. A dashboard is provided for the admin to view requests, create invoices, and approve accounts.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/signs/azsigns.jpeg"
         ],
-        "url": "",
+        "url": "https://github.com/anthonylouismorton/ArizonaSignCompany",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-microsoftsqlserver-plain-wordmark colored",
+            "name": "Microsoft SQL Server"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
             "class": "devicon-csharp-plain",
@@ -35,12 +34,26 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Game",
+        "startDate": "2021",
+        "description": "Story board game that accepts user input and uses localStorage to store it. Animations were used with CSS animations",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/Game/houseofhell.jpeg"
+        ],
+        "url": "https://github.com/anthonylouismorton/House_of_Hell",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Horned Beast",
+        "startDate": "2021",
+        "description": "My first React website! Has a sorting feature, voting feature, and modal",
+        "images": [
+          "images/portfolio/beasts/beast.jpeg"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -51,30 +64,6 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }
