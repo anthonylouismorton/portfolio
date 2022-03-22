@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "Anthony Morton",
-      "titles": [ "Full Stack Developer" ],
+      "name": "Prestige Worldwide Web Development LLC",
+      "titles": [ "Anthony Morton" ],
       "social": [
         {
           "name": "github",
@@ -14,7 +14,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "headshot.jpg"
+      "image": "Anthony.jpg"
     },
     "skills": {
       "icons": [

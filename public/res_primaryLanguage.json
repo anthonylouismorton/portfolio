@@ -1,12 +1,16 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "My name my name is Anthony Morton. I am a full-stack web developer. I have a background in industrial hygiene, and I also have a bachelor’s degree in occupational health and safety from Columbia Southern University. Before my time as an industrial hygienist, I served 9 years in the United States Marine Corps where I was a motor transport operator and an imagery analyst. My skills include leadership, teamwork, and adaptability. During my time in the Marines, I enjoyed being a leader and I found being a leader was most rewarding when I was able to help my subordinates advance their careers and get promoted. I also enjoyed using teamwork to build comradery and that comradery was one of my favorite parts of being a Marine. Currently, I am hoping to find a role in automation. I am particularly interested in automation that helps with worker safety. Engineering controls are one of the most efficient ways to keep a worker safe and one of the more effective engineering controls is the use of automation ",
+      "description_header": "Who we are and what we provide",
+      "description": "Prestige Worldwide Web Design LLC is a veteran owned and operated company. Please contact us if you are interested in a webpage for your business or if you need an app built. We create apps for Apple and Android",
+      "contact":"Contact Info ",
+      "email": "Email: prestigeworldwidewebdesignllc@gmail.com",
+      "linkedIn": "LinkedIn: https://www.linkedin.com/in/anthony-louis-morton/",
+      "phone": "Phone: 760-207-6587",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
+        "about": "About",
+        "projects": "Previous Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Education"
       }
     },
     "projects": [
@@ -34,14 +38,19 @@
         ]
       },
       {
-        "title": "Game",
+        "title": "Wedding Site",
         "startDate": "2021",
-        "description": "Story board game that accepts user input and uses localStorage to store it. Animations were used with CSS animations",
+        "description": "Wedding Website for adding wedding and engagement photos, allowing guests to RSVP, and hidden dashboard to control photos and guest invitations",
         "images": [
-          "images/portfolio/Game/houseofhell.jpeg"
+          "images/portfolio/Wedding/photoCarousel.png",
+          "images/portfolio/Wedding/dashboard.png"
         ],
-        "url": "https://github.com/anthonylouismorton/House_of_Hell",
+        "url": "https://prestigeweddingsite.netlify.app/Home",
         "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
@@ -49,13 +58,13 @@
         ]
       },
       {
-        "title": "Horned Beast",
+        "title": "Crime Reporting Site",
         "startDate": "2021",
-        "description": "My first React website! Has a sorting feature, voting feature, and modal",
+        "description": "Website that allows a user to login using Auth0. Users can report crimes and see crimes in their area.",
         "images": [
-          "images/portfolio/beasts/beast.jpeg"
+          "images/portfolio/crime/iSnitch.png"
         ],
-        "url": "https://horned-beast-react-project.netlify.app",
+        "url": "https://isnitch.netlify.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
