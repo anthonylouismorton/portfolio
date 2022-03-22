@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
-import cSharpIcon from "@iconify/icons-logos/c-sharp"
-import jSIcon from "@iconify/icons-logos/javascript"
+// import { Icon } from "@iconify/react";
+// import reactIcon from "@iconify/icons-logos/react";
+// import cSharpIcon from "@iconify/icons-logos/c-sharp"
+// import jSIcon from "@iconify/icons-logos/javascript"
 
 class About extends Component {
   render() {
@@ -11,9 +11,12 @@ class About extends Component {
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      // var hello = this.props.resumeBasicInfo.description_header;
-      //test
+      var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var contact = this.props.resumeBasicInfo.contact;
+      var email = this.props.resumeBasicInfo.email;
+      var linkedIn = this.props.resumeBasicInfo.linkedIn;
+      var phone = this.props.resumeBasicInfo.phone;
     }
 
     return (
@@ -27,11 +30,11 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="200px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
+                  {/* <Icon
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
@@ -42,7 +45,8 @@ class About extends Component {
                   <Icon
                     icon={cSharpIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  /> */}
+                  {/* <h1>Anthony Morton</h1> */}
                 </span>
               </div>
             </div>
@@ -77,11 +81,20 @@ class About extends Component {
                       lineHeight: "200%",
                     }}
                   >
-                    <br />
-                    {/* <span className="wave">{hello} :) </span> */}
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}
+                    <br />
+                    <br />
+                    {contact}
+                    <br />
+                    <br />
+                    {email}
+                    <br />
+                    {linkedIn}
+                    <br />
+                    {phone}
                   </div>
                 </div>
               </div>
